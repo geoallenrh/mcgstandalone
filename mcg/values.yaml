@@ -20,7 +20,7 @@ mcgstandalone:
 # namespace when createuser is enabled, although it is recommended to use object bucket claims.
   createuser:
     enabled: true
-    name: demo
+    name: mcg-demo
 # This value is in case of load, what would be set as the HPA min/max target
 # for the noobaa-endpoint deployment.
   endpointworkers:
